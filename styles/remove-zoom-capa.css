@@ -1,0 +1,9 @@
+/* Remove o zoom e mostra o topo da imagem de capa para telas grandes */
+@media (min-width: 1024px) {
+    body {
+        background-position: top !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-attachment: fixed !important;
+    }
+}
